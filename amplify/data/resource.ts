@@ -14,7 +14,7 @@ type Todo @model {
 export const data = defineData({
     migratedAmplifyGen1DynamoDbTableMappings: [{
             // Replace the environment name (dev) with the corresponding branch name. Use "sandbox" for your sandbox environment.
-            branchName: "dev",
+            branchName: "main",
             modelNameToTableNameMapping: { Todo: "Todo-y5vr22dwsreg3oc75ifttex3ea-dev" }
         }],
     schema
